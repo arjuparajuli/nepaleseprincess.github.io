@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1 {font-family: "Montserrat", sans-serif}
+img {margin-bottom: -7px}
+.w3-row-padding img {margin-bottom: 12px}
+.mounteverest {
+
+}
+.sagarmatha{
+  width: 100px;
+}
+
+#myGrid, #myhead{
+  margin-left: 100px;
+}
+.rabbit{
+  height: 300px;
+}
+
+</style>
+<body>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar sagarmatha w3-black w3-animate-top w3-xsmall" style="padding-top:150px" id="mySidebar">
+
+
+  <div class="w3-bar-block w3-center">
+    <a href="index.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Home</a>
+    <a href="mounteverest.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Mount Everest</a>
+    <a href="landmarks.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Landmarks</a>
+    <a href="food.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Food</a>
+    <a href="activities.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Activities</a>
+    <a href="culture.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Culture</a>
+  </div>
+</nav>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content mounteverest" style="max-width:1500px"> </div>
+
+
+
+<!-- Header -->
+<div id="myhead">
+<header class="w3-center w3-margin-bottom">
+   <h1 class="w3-wide"><b> MOUNTEVEREST  </b></h1>
+   <img src="w3images/Nepal5.gif" alt="Nepal" style="width:5%">
+  <p><b>At an elevation of 29,028 feet (8848 meters) above sea level, Mount
+Everest is the world’s tallest mountain. Mount Everest is relatively
+young, having been formed only 60 million years ago, and it is still
+growing a few millimeters every year!</b></p>
+  <!-- <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()"> Nepal </button></p> -->
+</header>
+</div>
+
+<!-- Photo Grid -->
+r
+<div class="w3-row" id="myGrid" style="margin-bottom:128px">
+  <div class="w3-third">
+    <img src="w3images/nepal3.gif" class="rabbit" alt="Nepal" style="width:100%">
+
+  </div>
+
+  <div class="w3-third">
+    <img src="w3images/nepal1.gif" class="rabbit" alt="Nepal" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+    <img src="w3images/nepal2.gif" class="rabbit" alt="Nepal" style="width:100%">
+  </div>
+
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+
+
+<script>
+// Nepal
+function myFunction() {
+    var x = document.getElementById("myGrid");
+    if (x.className === "w3-row") {
+        x.className = "w3-row-padding";
+    } else {
+        x.className = x.className.replace("w3-row-padding", "w3-row");
+    }
+}
+
+</script>
+
+</body>
+</html>
